@@ -23,6 +23,7 @@ export interface Deck {
   name: string;
   description: string;
   cards: StimulusCard[];
+  targetLabels?: string[]; // The list of targets (e.g., ["Eating", "Drinking"])
   updatedAt: number;
   color?: string; // Hex code
   cloudSyncId?: string;
